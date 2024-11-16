@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-   
+     
     <div id="login" class="wrapper active"> <!-- Make this the default active section -->
       <h1>Login</h1>
       <form action="dashboard/admin/authentication/admin-class.php" method="POST">
