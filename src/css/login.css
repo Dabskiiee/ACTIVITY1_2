@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root {
-    --background-color: #dfe9f5;
-    --primary-color: #07001f;
-    --button-bg-color: tomato;
-    --button-hover-bg-color: rgba(122, 30, 30, 0.767);
-    --icon-border-color: #dfe9f5;
-    --icon-color-green: green;
-    --icon-color-blue: blue;
+    --background-color: #E5F6F7; 
+    --primary-color: #0ABAB5; 
+    --button-bg-color: #0ABAB5;
+    --button-hover-bg-color: #006D6F; 
+    --icon-border-color: #B4D8D1; 
+    --icon-color-green: #7ABF93; 
+    --icon-color-blue: #4B8A8A; 
 }
 
 * {
@@ -21,14 +21,21 @@ body {
    
 
     .wrapper {
-        width: 330px;
+        width: 450px;
         padding: 2rem 0 1rem 0;
-        margin: 130px auto;
+        margin: 250px auto;
         background: #fff;
         border-radius: 10px;
         text-align: center;
         box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
     }
+
+    .curve::placeholder {
+        color: var(--button-hover-bg-color); 
+        font-style: italic;
+        font-size: 16px; 
+        opacity: 1; 
+      }
 
 
     .recover {
