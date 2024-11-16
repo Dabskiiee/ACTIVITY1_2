@@ -12,7 +12,6 @@
 <body>
 
     <?php include 'login.php'; ?>
-        <?php include 'signup.php'; ?>
 </div>
 </body>
 </html>
