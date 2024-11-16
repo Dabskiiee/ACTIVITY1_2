@@ -353,7 +353,7 @@
                 ));
 
                 // Prepare the reset link
-                $resetLink = "localhost/ACTIVITY1_1/reset-password.php?token=" . $token . "&id=" . $userId;
+                $resetLink = "localhost/Phps/ACTIVITY1_2/reset-password.php?token=" . $token . "&id=" . $userId;
 
                 // Email Subject and Body
                 $subject = "Password Reset Request";

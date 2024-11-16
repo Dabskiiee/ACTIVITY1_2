@@ -12,9 +12,10 @@ if (empty($_SESSION['csrf_token'])) {
 <head>
     <meta charset="UTF-8">
     <title>Forgot Password</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/password.css">
 </head>
 <body>
+    <div class ="con">
     <div class="container">
         <h2>Forgot Password</h2>
         <form method="POST" action="dashboard/admin/authentication/admin-class.php">
@@ -23,6 +24,7 @@ if (empty($_SESSION['csrf_token'])) {
             <input type="email" name="email" required>
             <button type="submit" name="btn-forgot-password">Send Reset Link</button>
         </form>
+    </div>
     </div>
 </body>
 </html>
