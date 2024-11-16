@@ -23,7 +23,7 @@ body {
     align-items: center; 
     min-height: 100vh; 
     margin: 0; 
-    background-image: url(../img/loginsignupbg.jpg);
+    background-image: url('../img/loginsignupbg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

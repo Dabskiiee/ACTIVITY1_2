@@ -13,6 +13,7 @@ if (empty($_SESSION['csrf_token'])) {
     <meta charset="UTF-8">
     <title>Forgot Password</title>
     <link rel="stylesheet" href="src/css/password.css">
+    
 </head>
 <body>
     <div class ="con">

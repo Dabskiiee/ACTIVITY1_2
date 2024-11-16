@@ -10,7 +10,12 @@
 
 
 body{
-    background-image: url(../img/bg.png);
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, var(--button-hover-bg-color), var(--button-bg-color),var(--icon-color-green),var(--icon-border-color),var(--icon-color-blue));
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+    overflow-y: hidden;
 }
 
 .con{
@@ -64,4 +69,16 @@ button{
 }
 button:hover{
     background-color: var(--button-hover-bg-color);
+}
+@keyframes bg {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
 }
