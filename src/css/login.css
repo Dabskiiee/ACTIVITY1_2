@@ -116,3 +116,27 @@ body {
         text-decoration: underline;
     }
 }
+
+
+body {
+    margin: 0;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: 
+      linear-gradient(to right, rgba(12, 230, 223, 0.5) 20%, rgba(255, 255, 255, 0) 80%), 
+      url(../img/loginbg.jpg);
+  }
+  
+
+.wrapper {
+  display: none; 
+}
+
+.active {
+  display: block; 
+}
+
+
